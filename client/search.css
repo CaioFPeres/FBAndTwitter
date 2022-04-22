@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #0B0073, #5A49F4);
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    /*overflow: auto;*/
+}
+
+main h1 {
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.searchContainer{
+    padding: 15px;
+}
+
+.searchInput{
+    margin: auto;
+    padding-left: 10px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgb(233, 233, 233);
+
+    border-radius: 10px;
+    border: none;
+}
+
+.maxResults{
+    margin-left: 5px;
+    margin-top: 20px;
+    padding-left: 10px;
+
+    margin: auto;
+    margin: 10px auto;
+    
+    width: 115px;
+    height: 30px;
+
+    font-size: 20px;
+    background-color: rgb(233, 233, 233);
+
+    border-radius: 10px;
+    border: none;
+}
+
+#historico {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #2A2273;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#historico h5 {
+    color: white;
+    font-weight: 700;
+}
+
+#historico ul {
+    list-style: none;
+    text-align: center;
+}
+
+#historico ul li {
+    display: inline-block;
+    padding: 10px;
+    background-color: #1800F2;
+    border-radius: 5px;
+}
+
+#historico ul li:hover {
+    background-color: #0B0073;
+}
+
+#historico a {
+    color: white;
+}
+
+#historico h3 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*.btn_reload {
+    display: none;
+    background-color: rgb(11, 94, 215);
+    background-image: url('./assets/img/reload_black29x29.png');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    float: right;
+    width: 33px;
+    height: 33px;
+
+}*/
+
+.resultContainer{
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.resultContainer h5 {
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+.result{
+    font-size: 30px;
+}
+
+
+.searchButton {
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.searchButton:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.searchButton:active {
+    background-color: rgb(92, 92, 92);
+}
+
+
+
+.card{
+    height: fit-content;
+    width: auto;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.twitterUser{
+    font-size: 22px;
+}
+
+.tweetContent{
+    display: block;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.btnHistory {
+    margin-right: 10px;
+}
